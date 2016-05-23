@@ -142,19 +142,43 @@ padding-right: 123px;
   width: 22px;
   height: 21px;
   background-size: cover;
-  background-color: rgb(94,104,110);*/
+  background-color: rgb(94,104,110);
 
-}
+}*/
+.fa-comment-o:before {
+    background-color: rgb(93,104,110);
+    content: "\f0e5";
+  }
 .readcomments{
   display: inline-block;
-  background-color: grey;
+  background-color: rgb(150,170,183);
+  text-decoration: none;
+}
+.readcomments a{
+  text-decoration: none;
+  color: white;
+  padding-right: 7px;
+  font-size: 10px;
 }
 .later{
   display: inline-block;
   background-color: rgb(93,104,110);
 }
+.later a{
+  text-decoration: none;
+  color: white;
+  padding-right: 7px;
+  font-size: 10px;
+}
 .share{
   display: inline-block;
+  background-color: rgb(2,110,174);
+}
+.share a{
+  text-decoration: none;
+  color: white;
+  padding-right: 7px;
+  font-size: 10px;
 }
 .author-info{
   margin-top: -48px;
@@ -175,6 +199,126 @@ padding-right: 123px;
 .timing{
   color: rgb(167,183,194);
 }
+/*#sidebar{
+
+  float: right;
+
+}*/
+.author-social-info {
+  height: 514px;
+  width: 285px;
+  float: right;
+  margin-right: 167px;
+  margin-top: -673px;
+  padding-top: 60px;
+}
+.anne-marie-sidebar{
+  color: rgb(2,110,174);
+  margin: 7px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+/*.medium-author {
+  background: url('../images/margot-robbie.jpg');
+  width: 22px;
+  height: 21px;
+  border-radius: 50%;
+} */
+.author-headshot{
+  background: url('../images/margot-robbie.jpg');
+  width: 85px;
+  height: 82px;
+  margin-left: 94px;
+  border-radius: 50%;
+  background-size: cover;
+  display: block;
+}
+.social-links{
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-top: 4px;
+}
+.social-links li{
+  list-style: none;
+  display: inline-block;
+}
+.sidebar-section {
+  color: rgb(2,110,174);
+  text-transform: uppercase;
+  margin-top: 18px;
+  text-align: center;
+}
+.sidebar-paragraph{
+  font-size: 12px;
+  color: rgb(162,179,190);
+
+}
+.clear-fixing {
+  clear: both;
+}
 /*.comments-read-post{
   list-style: none;
 } */
+.twitter{
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(162,179,190);
+}
+.facebook{
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(162,179,190);
+}
+.instagram{
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(162,179,190);
+}
+.side-image{
+  background: url('https://s-media-cache-ak0.pinimg.com/236x/f4/7e/d0/f47ed01cefafb1e15a7831ef9ac6f6d0.jpg');
+  width: 217px;
+  height: 300px;
+  display: block;
+}
+.about{
+  font-size: 11px;
+  margin-left: 152px;
+  text-decoration: underline;
+  color: rgb(162,179,190);
+}
+
+
+/*Most Popular Posts*/
+.most-popular{
+  margin: 48px;
+  display: inline-block;
+}
+.popular{
+  text-transform: uppercase;
+  width: 1276px;
+  color: rgb(4,52,80);
+  font-size: 67px;
+  line-height: 73px;
+  margin-left: 247px;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+.iron-yard-logo{
+  margin-left: 156px;
+  background-color: rgb(4, 52, 80);
+}
+.iron-yard {
+  margin-top: 814px;
+}
+/*#footer{
+  clear: both;
+}*/
