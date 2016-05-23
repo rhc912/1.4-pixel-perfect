@@ -1,0 +1,180 @@
+/*
+ * General typography and color pallet
+ */
+html{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'OpenSans', sans-serif;
+}
+
+h1,
+h2,
+h3{
+  font-family: 'Oswald', sans-serif;
+}
+
+/*
+ * Main Layout
+ */
+
+ .container{
+   max-width: 1300px;
+   margin: 0 auto;
+ }
+
+header{
+  margin-bottom: 45px;
+  background: #FFF url('https://s-media-cache-ak0.pinimg.com/736x/b5/a9/98/b5a99829afbe66fa822bf5204cfc895c.jpg') no-repeat;
+  background-size: cover;
+  height: 523px;
+  position: relative; /* for absolutely positioned children */
+  text-transform: uppercase;
+}
+
+header:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(16, 98, 170, 0.8);
+}
+
+header nav,
+header h1,
+header h3{
+  position: relative;
+  /*margin*/
+}
+
+header h1, header h3{
+
+  text-align: center;
+  /*margin-bottom: -30px;*/
+}
+header h1{
+  text-transform: uppercase;
+  font-size: 5.7em;
+  font-weight: 700;
+  color: white;
+  height: 81px;
+  margin-top: 120px;
+  letter-spacing: 5px;
+}
+header h3{
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  /*height: 1px;*/
+}
+.fantastic-engaging{
+  width: 615px;
+  margin-left: 162px;
+}
+nav {
+padding-right: 123px;
+
+}
+.branding{
+  text-transform: uppercase;
+  float: left;
+  padding: 12px 19px 9px 141px;
+  letter-spacing: 1px;
+}
+.logo-title {
+  vertical-align: 20px;
+}
+
+.utility-nav {
+  margin-top: 22px;
+  letter-spacing: 1px;
+  float: right;
+  padding-right: 30px;
+  color: black;
+  list-style: none;
+}
+
+.utility-nav li{
+  display: inline-block;
+  letter-spacing: 1px;
+}
+.utility-nav li a{
+  text-decoration: none;
+  color: black;
+}
+.search-icon{
+  transform: scaleX(-1);
+}
+.clear-fix{
+  clear: both;
+}
+/*
+ * Main Page Content
+*/
+
+.fantastic-engaging h2{
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-size:67px;
+  line-height: 73px;
+}
+.woah{
+  text-transform: uppercase;
+  font-size: 35px;
+  padding-left: 19px;
+  border-left: 2px solid rgb(211,211,211);
+  color: rgb(2,110,174);
+}
+.social {
+  margin-left:160px;
+}
+/*.comment-icon{
+  background: url('http://www.tamtampro.com/static/image/tamtam/stream/comment_white.png');
+  display: inline-block;
+  width: 22px;
+  height: 21px;
+  background-size: cover;
+  background-color: rgb(94,104,110);*/
+
+}
+.readcomments{
+  display: inline-block;
+  background-color: grey;
+}
+.later{
+  display: inline-block;
+  background-color: rgb(93,104,110);
+}
+.share{
+  display: inline-block;
+}
+.author-info{
+  margin-top: -48px;
+  margin-left: 21px;
+}
+.author-log{
+  background: url('../images/margot-robbie.jpg');
+  width: 22px;
+  height:21px;
+  border-radius: 50%;
+  background-size: cover;
+  display: inline-block;
+}
+.anne-color{
+  margin-left: 1px;
+  color: rgb(2,110,174);
+}
+.timing{
+  color: rgb(167,183,194);
+}
+/*.comments-read-post{
+  list-style: none;
+} */
